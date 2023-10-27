@@ -1,0 +1,138 @@
+
+body,h2{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url("image1.jpg");
+    background-size: cover;
+    background-position:center ;
+    height: 100vh;
+    color:rgb(255, 255, 255);
+}
+header a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    min-width: 120px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 1em;
+    padding: 1em;
+}
+#logo{
+    flex: 1;
+    font-size: 1.50em;
+    min-width: 260px;
+}
+nav{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+nav a {
+    flex: 2;
+}
+nav a:hover{
+    color: darkturquoise;
+}
+header h2 i,nav a i{
+    margin-right: .5em;
+}
+nav div{
+    flex: 0;
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 2em;
+}
+.tagline1{
+    color: honeydew;
+    font-size: 2.5em;
+    font-weight: bolder;
+}
+.tagline2{
+    color: azure;
+}
+.callus{
+    color: cornsilk;
+}
+.maintext div{
+margin-top: .7em;
+}
+.maintext button{
+    width:20vw;
+    margin-top: 2em;
+    border-radius: 10px;
+    padding: .7em;
+    background-color:#0dffbcb3;
+    color: aliceblue;
+    border: 2px solid #000000e7;
+
+}
+.maintext button:hover{
+    color: black;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
+    background: linear-gradient(to right,#2c07f5,#9f4269,#7e3190,#863587,#923b78,#9a3f6e,#4c17ce);
+    color: rgb(255, 255, 255);
+ 
+}
+#menuheading,#locheading{
+    background: linear-gradient(to right,#2c07f5,#9f4269,#7e3190,#863587,#923b78,#9a3f6e,#4c17ce);
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    color:#000000;
+    font-size:1.8em;
+}
+table{
+    width:100%;
+    padding: 1em;
+}
+.menu tr{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em;
+}
+.menu td:nth-child(1){
+    flex: 1;
+    justify-self: left;
+}
+.menu td:nth-child(2){
+    justify-self: right;
+}
+.maincourse{
+    grid-row:span 2;
+}
+
+.locations{
+    background: linear-gradient(to right,#2c07f5,#9f4269,#7e3190,#863587,#923b78,#9a3f6e,#4c17ce);
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+.locations h2{
+    color: darkblue;
+    margin-bottom: 0.8em;
+}
+.locations div{
+    flex: 1;
+    padding: 1em;
+    min-width: 310px; 
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: .25em 1em;
+}
